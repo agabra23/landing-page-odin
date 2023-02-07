@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero-section, .information-section, .quote-section, .footer {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    flex-shrink: 0;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    flex-shrink: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 18px;
+}
