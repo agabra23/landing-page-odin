@@ -9,7 +9,7 @@ body {
     flex-direction: column;
 }
 
-.header, .hero-section, .information-section, .quote-section, .footer {
+.header, .hero-section, .information-section, .quote-section, .cta-section, .footer {
     padding-left: 300px;
     padding-right: 300px;
 }
@@ -185,8 +185,18 @@ li {
     font-weight: 500;
 }
 
+.cta-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
 .cta-container {
     background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 75px;
+    border-radius: 16px;
 }
 
 .cta-button {
@@ -195,4 +205,21 @@ li {
     color: #f9faf8;
     padding: 8px 32px;
     border-radius: 8px;
+}
+
+.cta-title, .cta-subtext {
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+.cta-title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.cta-subtext {
+    font-weight: 200;
+    font-size: 14px;
 }
