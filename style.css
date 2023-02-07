@@ -3,7 +3,6 @@
 } */
 
 body {
-    padding: 0;
     margin: 0;
     font-family: "Roboto", serif;
     display: flex;
@@ -27,7 +26,7 @@ body {
 }
 
 .hero-section {
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 75px;
     padding-bottom: 75px;
     align-items: center;
@@ -82,6 +81,7 @@ body {
     align-items: center;
     align-self: stretch;
     background-color: #666b73;
+
 }
 
 .hero-img {
@@ -124,7 +124,9 @@ li {
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
+    text-align: center;
     margin: 0;
+    flex: 1;
 }
 
 .card-container {
@@ -154,17 +156,33 @@ li {
 
 .quote-section {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .quote-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    width: 800px;
+    padding: 50px;
 }
 
 .quote-text {
     margin: 0;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    margin: 0;
+    text-align: right;
+    align-self: flex-end;
+    font-weight: 500;
 }
 
 .cta-container {
