@@ -26,7 +26,7 @@ body {
 }
 
 .hero-section {
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 75px;
     padding-bottom: 75px;
     align-items: center;
@@ -132,8 +132,10 @@ li {
 .card-container {
     flex: 1;
     display: flex;
-    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    justify-content: center;
     align-items: center;
+    gap: 24px;
 }
 
 .card {
